@@ -29,4 +29,4 @@ npm run dev
 php artisan serve
 
 
-[def]: welcome.png
+[def]: 

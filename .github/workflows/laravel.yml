@@ -22,4 +22,3 @@ jobs:
           script: | 
            cd /var/www/html/Laravel_Review
            git pull origin branch
-           composer install

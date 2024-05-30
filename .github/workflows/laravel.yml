@@ -11,8 +11,6 @@ jobs:
     if: github.ref == 'refs/heads/main'
     steps:
       - uses: actions/checkout@v2
-      - name: Composer install
-        run: composer install
 
       - name: Deploy to development server
         uses: appleboy/ssh-action@master

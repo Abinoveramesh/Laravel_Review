@@ -10,8 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
     steps:
-      - uses: actions/checkout@v2
-
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
       - name: Deploy to development server
         uses: appleboy/ssh-action@master
         with:
